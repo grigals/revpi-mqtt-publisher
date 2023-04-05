@@ -1,0 +1,6 @@
+node_modules
+.env
+package-lock.json
+config/config.json
+lib/RevPi-Interface/node_modules
+

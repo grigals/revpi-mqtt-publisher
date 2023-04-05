@@ -1,0 +1,19 @@
+{
+  "name": "factoryplus-revpi-mqtt-publisher",
+  "version": "0.0.1",
+  "description": "RevPi app which publishes available tags to MQTT as a client",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "AG",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "fs": "^0.0.1-security",
+    "mqtt": "^4.3.6"
+  }
+}

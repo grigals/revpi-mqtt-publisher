@@ -1,0 +1,17 @@
+version: "3.7"
+services:
+  revpi-mqtt-publisher:
+    environment:
+      - DEBUG=true
+    volumes:
+      - "revpi_mqtt_publisher_config:/home/node/app/config"
+      - "/var/www/pictory/projects:/var/www/pictory/projects"
+    image: "artgr/revpi-mqtt-publisher:<version>"
+    devices:
+      - /dev/piControl0
+    restart: unless-stopped
+    networks:
+      - revpi-local
+
+volumes:
+  revpi_mqtt_publisher_config:

@@ -1,0 +1,11 @@
+{
+    "MQTTConnection": {
+        "address": "mqtt://mqtt-broker",
+        "username": "",
+        "password": "",
+        "namespace": "RevPi"
+    },
+    "RevPi": {
+        "pollingIntervalInMs": 1000
+    }
+}

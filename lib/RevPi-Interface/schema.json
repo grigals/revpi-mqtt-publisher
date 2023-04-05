@@ -1,0 +1,27 @@
+{
+    "type": "object",
+    "patternProperties": {
+        ".*": {
+            "type": "object",
+            "required": [
+                "value",
+                "type",
+                "offset"
+            ],
+            "properties": {
+                "value": {
+                    "type": [
+                        "number",
+                        "boolean"
+                    ]
+                },
+                "type": {
+                    "type": "string"
+                },
+                "offset": {
+                    "type": "number"
+                }
+            }
+        }
+    }
+}
